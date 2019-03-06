@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "builds": [{
+      "src": "function.js",
+      "use": "@now/static"
+    },
+    {
+      "src": "index.html",
+      "use": "@now/static"
+    },
+    {
+      "src": "favicon.ico",
+      "use": "@now/static"
+    },
+    {
+      "src": "style.css",
+      "use": "@now/static"
+    },
+    {
+      "src": "passionate_man.png",
+      "use": "@now/static"
+    }
+  ],
+  "alias":"endleshuzo"
+}
